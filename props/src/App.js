@@ -7,23 +7,28 @@ function App() {
       <Person 
         firstname = {'Drake'} 
         lastname = {'Graham'} 
-        age ={35} 
-        hair = {'black'}/>
+        birthday ={35} 
+        hair = {'black'}
+        intialstock ={60}/>
       <Person 
         firstname = {'Ryan'} 
         lastname = {'Santiago'} 
-        age ={29} 
-        hair = {'Dark Brown'}/>
+        birthday ={29} 
+        hair = {'Dark Brown'}
+        intialstock ={50}/>
       <Person 
         firstname = {'Naruto'} 
         lastname = {'Uzumaki'} 
-        age ={33} 
-        hair = {'Blonde'}/>
+        birthday ={33} 
+        hair = {'Blonde'}
+        intialstock ={42}/>
       <Person 
         firstname = {'Jon'} 
         lastname = {'Snow'} 
-        age ={25} 
-        hair = {'Black'}/>
+        birthday ={25} 
+        hair = {'Black'}
+        intialstock ={12}/>
+        <button onClick={ ()=> alert("This button has been clicked!") }>Click Me</button>
     </div>
   );
 }
