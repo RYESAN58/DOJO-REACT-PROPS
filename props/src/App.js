@@ -28,6 +28,7 @@ function App() {
         birthday ={25} 
         hair = {'Black'}
         intialstock ={12}/>
+        <UserForm/>
         <button onClick={ ()=> alert("This button has been clicked!") }>Click Me</button>
     </div>
   );
